@@ -2,76 +2,220 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Aplic. Web de jQuery Mobile</title>
-<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
-<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
-<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<title>Mi primera practica movil</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
 </head> 
 <body> 
 
-<div data-role="page" id="page">
+<div data-role="page" id="principal">
 	<div data-role="header">
-		<h1>Página uno</h1>
+		<h1>LOS EMOS</h1>
 	</div>
+    EMOS<br>
+    <br>
+    
+<br>El emo es un género musical derivado del hardcore punk nacido a mediados de los años 80.<br> Bandas como Rites of spring y Embrace comienzan un nuevo sonido dentro del hardcore, rompiendo musicalmente las restricciones básicas de ello pero con una nueva línea vocal mucho más melódica, llevando su sonido a una dirección más personal y creando un contraste con su sonido más lento y melódico lo que permitió una sensación <br>más experimental.1<br>
+Los emos son una de las tribus urbanas modernas en auge de la actualidad. Hijos de las grandes ciudades y herederos de los ‘punk’, esta subcultura tiene sus orígenes a mediados de los años 80 -en Washington D.C.- y se caracteriza, como muchos sabréis, por el aspecto oscuro, triste y antisocial<br>. Aunque los jóvenes emos de hoy en día nada tienen que ver con los emos nacidos del fenómeno por la música post-hardcore.<br> ¿Qué es realmente un emo? ¿De dónde viene la palabra? ¿Qué es lo que les caracteriza?<br>
+
+<br>La palabra emo es una abreviación de las inglesas ‘emotional harcore’ o ‘emo-core’, que, además de hablar del estilo de música que les representa, hace referencia a ese sentimiento de ‘tristeza o dureza emocional’.<br> Infelicidad y melancolía. Es por eso que, para protegerse y rebelarse contra todo lo social, se visten de negro y se atabían con un aspecto deprimente que enseña que las cosas no están bien.<br> En vez de enfrentarse a la sociedad directamente, deciden envolverse en sí mismos y no utilizar la dureza destructiva de las tribus más hardcores.<br>
+
+<br>Empujados por el estilo de Tim Burton y Johnny Depp, mezclados con ciertas características de los góticos, los emos han evolucionado hasta ser absorbidos como tribu urbana totalmente encajada en la sociedad, en el mainstream.<br> Sus objetivos se han vanalizado, y la crítica ha dejado paso a la simple apariencia, como ocurre con tantas tribus urbanas.<br> Aunque permanezcan las formas, se ha perdido el fondo, convertida en una amalgama de cruces, oscuridad, calaveras y peinados que les tapan los ojos.<br> Como tantos otros movimientos principalmente adolescentes, se convierten en una fuente para llamar la atención, al tiempo que se lucha contra los propios fantasmas interiores que caracteriza a la edad.<br> Es la manera de abrazar el tan habitual ‘soy un incomprendido’ que todos hemos sentido alguna vez.<br>
+    <br>
+    <a href="#mypop" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> Email </a>
+    <div data-role="popup" id="mypop">
+    <p>karla_baubau@hotmail.com</p>
+    </div>
+    
+     <a href="#mypop" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> facebook </a>
+    <div data-role="popup" id="mypop">
+    <p>karla lopez diaz</p>
+    </div>
+    <img src="Imagenes/arii.jpg" width="500" height="500">
+    <img src="Imagenes/851821Emo.jpg" width="500" height="500">
+    <img src="Imagenes/Corazon_emo.jpg" width="500" height="500">
 	<div data-role="content">	
 		<ul data-role="listview">
-			<li><a href="#page2">Página dos</a></li>
-            <li><a href="#page3">Página tres</a></li>
-			<li><a href="#page4">Página cuatro</a></li>
+			<li><a href="#emos" data-transition="flip"> LOS EMOS </a></li>
+            <li><a href="#biografia" data-transition="slidedown">BIOGRAFIA</a></li>
+			<li><a href="#galeria" data-transition="pop">GALERIA</a></li>
 		</ul>		
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
-	</div>
-</div>
+	<div data-role="footer" data-position="fixed">
+   	 <div data-role="navbar" data-iconpos="top">
+    	<ul>
+    	<li>
+    		<a href="#galeria" data-transition="slide" data-icon="home">INICIO</a>
+    	</li>
+   	 <li>
+  		 <a href="#ayuda" data-transition="slide"> AYUDA </a>
+    </li>
+    <li>
+    	<a href="principal" data-transition="slide" data-icon="alert"> CONTACTO </a>
+    </li>
+    	</ul>
+  	 </div>
+   	 </div>
+    
+		
+		</div>
+    </div>
 
-<div data-role="page" id="page2">
+	<div data-role="page" id="emos">
 	<div data-role="header">
-		<h1>Página dos</h1>
+    <a data-role="button" data-rel="back" data-direction="reverse"> regresar </a>
+		<h1>LOS EMOS</h1>
 	</div>
-	<div data-role="content">	
-		Contenido		
+	<div data-role="content" align="center">
+    <img src="Imagenes/emo.jpg" width="500" height="500">
+    <img src="Imagenes/emo te amo.png" width="500" height="500">
+    <img src="Imagenes/hol.jpg" width="500" height="500">
+        Actitud de los grupos emos
+<br>Las bandas emo no hacen música puramente comercial, ya que para ellos tratar de satisfacer a un público mayoritario sería incompatible con expresar emociones genuinas.<br> De hecho, tanto los conciertos de estos grupos como sus discos suelen tener precios bajos en comparación con los de otros artistas.<br> Además, muchas de las bandas emo durante los 90', al carecer de los recursos económicos para lanzar un álbum, preferían lanzar splits entre dos o tres para ahorrar dinero.<br>
+
+<br>Durante los shows, las bandas emo se caracterizan por tocar sin un escenario definido, prefiriendo el suelo en locales pequeños para estar más cerca del público.<br>
+
+<br>Actualmente, el término emo es utilizado por los medios especializados para identificar cierta actitud y ciertos patrones estéticos a menudo ajenos a la música emo-core, los cuales no coinciden con el concepto original del término al cambiar radicalmente tanto la estética de este como sus ideologías en una búsqueda de las bandas por conseguir una mayor acogida comercial.<br> Esto último desencadenó el auge comercial de las bandas emo, lo que consiguió que la modificación de susodicha tribu urbana lograse tener un éxito importante entre el público adolescente, el cual se autodenomina "emo" cuando en realidad solo sigue la estética del emo actual.1
+Historia<br>
+
+<br>A lo largo de su historia, el emo ha pasado por varias etapas. A finales de los '80 el término emo se utilizaba para calificar a las bandas de la escena musical underground de Washington D.C. como Rites of Spring y Embrace, entre otras.<br> A mediados de los años '90, el género adoptó los patrones sonoros creados por Sunny Day Real Estate.<br> Hoy en día, el término es erróneamente utilizado para etiquetar bandas de diversos estilos como el pop punk, el post-hardcore e incluso el metalcore.<br> Aunque usualmente, el emo se está asociando a una nueva resurgimiento de bandas Indie Rock nacidas a fines de la década del 2000, que siguen el sonido clásico del emo de los 90 entre el noreste y el centro de Estados Unidos.4<br>
+
+<br>Las bandas más populares usualmente catalogadas dentro de este estilo musical son Dashboard Confessional, Saves The Day, Thursday, Jimmy Eat World, Funeral For A Friend, Secondhand Serenade, Senses Fail, entre otros. Para la nueva vertiente del emo se suman Empire! Empire! (I Was a Lonely Estate), Joie de Vivre, Football, Etc., Annabel, Snowing e Into It. Over It., entre otros.5 4<br>
+
+<br>Como consecuencia del cambio sustancial y la poca relación entre el sonido de las bandas de la escena emo-core de los '80 e inicios de los '90 con el de las bandas actualmente etiquetadas dentro del género, se han generado dos vertientes en el uso del término "emo".<br> Mientras unos afirman que el género desapareció a fines de los '90 (Junto con el álbum Clarity de Jimmy Eat World), otros aceptan su uso para catalogar el estilo de diversas bandas de la escena popular.
+Primera generación<br>
+
+<br>En su origen, el término emo era usado para describir el sonido de los grupos de post hardcore de mediados de los años '80 en la escena de Washington D.C..6 Fue definido como emo-core -abreviación de emotive hardcore- por la carga emocional de las letras de estas bandas y por la expresividad y espontaneidad que éstas exhibían en sus conciertos.7<br>	
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
+	<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+    <ul>
+    <li>
+    <a href="#galeria" data-transition="slide" data-icon="home">INICIO</a>
+    </li>
+    <li>
+    <a href="#ayuda" data-transition="slide"> AYUDA </a>
+    </li>
+    <li>
+    <a href="principal" data-transition="slide" data-icon="alert"> CONTACTO </a>
+    </li>
+    </ul>
+    </div>
+		
 	</div>
 </div>
 
-<div data-role="page" id="page3">
+<div data-role="page" id="biografia">
 	<div data-role="header">
-		<h1>Página tres</h1>
+    <a data-role="button" data-rel="back" data-direction="reverse"> regresar </a>
 	</div>
-	<div data-role="content">	
-		Contenido		
+	<div data-role="content" align="center">
+    <img src="Imagenes/emos.jpg2.jpg" width="500" height="500">
+    <img src="Imagenes/1261065691217_f.jpg" width="500" height="500">
+    <img src="Imagenes/9436.jpg" width="500" height="500">
+	          EMOS<br>	
+                  
+<br>Las bandas más populares usualmente catalogadas dentro de este estilo musical son Dashboard Confessional, Saves The Day, Thursday, Jimmy Eat World, Funeral For A Friend, Secondhand Serenade, Senses Fail, entre otros. Para la nueva vertiente del emo se suman Empire! Empire! (I Was a Lonely Estate), Joie de Vivre, Football, Etc., Annabel, Snowing e Into It. Over It., entre otros.<br>5 4
+<br>Como consecuencia del cambio sustancial y la poca relación entre el sonido de las bandas de la escena emo-core de los '80 e inicios de los '90 con el de las bandas actualmente etiquetadas dentro del género, se han generado dos vertientes en el uso del término "emo". Mientras unos afirman que el género desapareció a fines de los '90 (Junto con el álbum Clarity de Jimmy Eat World), otros aceptan su uso para catalogar el estilo de diversas bandas de la escena popular.<br>
+<h2>Primera generación</h2>
+<br>En su origen, el término emo era usado para describir el sonido de los grupos de post hardcore de mediados de los años '80 en la escena de Washington D.C..6 Fue definido como emo-core -abreviación de emotive hardcore- por la carga emocional de las letras de estas bandas y por la expresividad y espontaneidad que éstas exhibían en sus conciertos.7
+El primer disco considerado "emocore" fue el álbum de debut homónimo de Rites of Spring en 1985.8 En él, el grupo redirigió la pasión y la rabia propias del hardcore hacia temas como la soledad o la añoranza del pasado en lugar de hacia la revolución social como había sido lo común hasta entonces en dicho género.<br>9
+<br>Otro grupo importante en esta época fue Embrace, liderados por Ian Mackaye, ex integrante de Minor Threat, grupo que años antes ya había inspirado el movimiento Straight Edge.[cita requerida]
+MacKaye y dos miembros de Rites of Spring, el vocalista y guitarrista Guy Picciotto y el baterista Brendan Canty formarían la altamente influyente Fugazi quienes, pese a estar rara vez relacionados o conectados con el término "emo", no son comúnmente reconocidos como una banda de emo.<br>
+<h2>Segunda generación</h2>
+<br>A partir de mediados de los años '90 el emo comenzó a diferenciarse del post-hardcore, evolucionando en dos ramas claramente diferenciables. La primera corriente siguió un camino persistiendo en el influjo del hardcore punk, pero adoptando ciertas cualidades del powerviolence,10 y partes melódicas. Grupos como Indian Summer, y Portraits of Past comenzarían a hacer música de esta manera, la que sería un preludio a lo que en la segunda mitad de la década de los 90' sería conocido como screamo. Más tarde, una banda proveniente de Mens, Francia, llamada Anomie iniciaría la escena screamo en Europa a mediados de los años 90.<br>
+<br>A diferencia de la corriente anteriormente mencionada, la segunda se diferencia de la primera debido a su sonido más tranquilo que su predecesor, guitarras disonantes y armónicas, las velocidades de ritmo (de lento a rápido y viceversa), las melodías apacibles que a veces estallaban de una forma eufórica y la cantidad de bandas que seguían la filosofía del DIY (Jawbreaker, Sunny Day Real Estate, Cap'n Jazz, Braid, The Movielife).<br>
+<br>También otros grupos como Jawbreaker fueron poniendo los cimientos del emo, pero quienes determinaron el sonido definitivo del género fueron Sunny Day Real Estate con sus dos primeros discos Diary y Sunny Day Real Estate. El sonido de la banda de Seattle partía del post-hardcore para incorporar influencias del grunge y el indie rock, y se completaba con la apasionada y visceral forma de cantar de su líder, Jeremy Enigk.<br>
+<br>Durante este periodo, Sunny Day Real Estate fue abriendo un nuevo abanico de ciertas bandas que complementarían el emo, entre estas, Christie Front Drive, Jimmy Eat World, Mineral (quien establecería más tarde el sonido definitivo del emo), Texas Is The Reason, The Promise Ring, Knapsack, entre otros.<br>
+                  Actitud de los grupos emos<br>
+Las bandas emo no hacen música puramente comercial, ya que para ellos tratar de satisfacer a un público mayoritario sería incompatible con expresar emociones genuinas. De hecho, tanto los conciertos de estos grupos como sus discos suelen tener precios bajos en comparación con los de otros artistas. Además, muchas de las bandas emo durante los 90', al carecer de los recursos económicos para lanzar un álbum, preferían lanzar splits entre dos o tres para ahorrar dinero.<br>
+Durante los shows, las bandas emo se caracterizan por tocar sin un escenario definido, prefiriendo el suelo en locales pequeños para estar más cerca del público.<br
+<h1>Es posible que a causa de ello haya lagunas de contenido o deficiencias de formato. Si quieres, puedes ayudar y editar, pero antes de realizar correcciones mayores contáctalos en sus páginas de discusión o en la página de discusión del artículo para poder coordinar la redacción.<br>
+Emo
+Orígenes musicales 	Hardcore punk<br>
+Post-hardcore<br>
+Indie Rock<br>
+Rock gótico<br>
+Post-rock<br>
+Pop rock<br>
+Black Metal<br>
+Rock electrónico<br>
+Orígenes culturales 	Finales de los años 1980 en Washington DC<br>
+Instrumentos comunes 	Guitarra, bajo, batería<br>
+algunas veces también se hace uso de la Tuba, el Pandero y/o el Violín<br>
+Popularidad 	No muy popular en la década de los '80 y '90, más popular en la década del 2000<br>
+Subgéneros<br>
+Screamo<br></h1>
+HISTORIA<h1>
+
+<h2>A lo largo de su historia, el emo ha pasado por varias etapas. A finales de los '80 el término emo se utilizaba para calificar a las bandas de la escena musical underground de Washington D.C. como Rites of Spring y Embrace, entre otras.<br> A mediados de los años '90, el género adoptó los patrones sonoros creados por Sunny Day Real Estate. Hoy en día, el término es erróneamente utilizado para etiquetar bandas de diversos estilos como el pop punk, el post-hardcore e incluso el metalcore.<br> Aunque usualmente, el emo se está asociando a una nueva resurgimiento de bandas Indie Rock nacidas a fines de la década del 2000, que siguen el sonido clásico del emo de los 90 entre el noreste y el centro de Estados Unidos.4<br>
+
+Las bandas más populares usualmente catalogadas dentro de este estilo musical son Dashboard Confessional, Saves The Day, Thursday, Jimmy Eat World, Funeral For A Friend, Secondhand Serenade, Senses Fail, entre otros.<br> Para la nueva vertiente del emo se suman Empire! Empire! (I Was a Lonely Estate), Joie de Vivre, Football, Etc., Annabel, Snowing e Into It. Over It., entre otros.5 4<br>
+
+Como consecuencia del cambio sustancial y la poca relación entre el sonido de las bandas de la escena emo-core de los '80 e inicios de los '90 con el de las bandas actualmente etiquetadas dentro del género, se han generado dos vertientes en el uso del término "emo".<br> Mientras unos afirman que el género desapareció a fines de los '90 (Junto con el álbum Clarity de Jimmy Eat World), otros aceptan su uso para catalogar el estilo de diversas bandas de la escena popular.<br></h1>
+
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
+	<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+    <ul>
+    <li>
+    <a href="#galeria" data-transition="slide" data-icon="home">INICIO</a>
+    </li>
+    <li>
+    <a href="#ayuda" data-transition="slide"> AYUDA </a>
+    </li>
+    <li>
+    <a href="principal" data-transition="slide" data-icon="home"> CONTACTO </a>
+    </li>
+    </ul>
+    </div>
+		
 	</div>
 </div>
 
-<div data-role="page" id="page4">
+<div data-role="page" id="galeria">
 	<div data-role="header">
-		<h1>Página cuatro</h1>
+    <a data-role="button" data-rel="back" data-direction="reverse"> regersar </a>
+		<h1>GALERIA</h1>
 	</div>
-	<div data-role="content">	
-		Contenido		
+	<div data-role="content" align="center">	
+    <img src="Imagenes/cuadro de emos.jpg" width="500" height="500"><br>
+    <img src="Imagenes/emos.jpg2.jpg" width="500" height="500"><br>	
+    <img src="Imagenes/corazon emo - copia.jpg" width="500" height="500"><br>
+    <img src="Imagenes/un emo de hada.jpg" width="500" height="500"><br>
+    <img src="Imagenes/images521.jpg" width="500" height="500"><br>
+    <img src="Imagenes/índice.jpg" width="500" height="500"> <br>
+    <img src="Imagenes/images.jpg" width="500" height="500"><br>
+    <img src="Imagenes/images00.jpg" width="500" height="500"><br>
+    <img src="Imagenes/hola.jpg" width="500" height="500"><br>
+    <img src="Imagenes/67.gif" width="500" height="500"><br>
+    <img src="Imagenes/1261065691217_f.jpg" width="500" height="500"><br>
+    <img src="Imagenes/534.jpg" width="500" height="500"><br>
+    <img src="Imagenes/694.jpg" width="500" height="500"><br>
+    <img src="Imagenes/20101220052506-aveses.jpg">
+     EMOS	
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
-	</div>
-</div>
-
-<div data-role="page" id="xd">
-  <div data-role="header">
-    <h1>Encabezado</h1>
-  </div>
-  <div data-role="content">Contenido</div>
-  <div data-role="footer">
-    <h4>Pie</h4>
-  </div>
-</div>
-
-
-
-</body>
+	<div data-role="footer" data-position="fixed">
+		  <div data-role="navbar" data-iconpos="top">
+          
+    <ul>
+    <li>
+    <a href="#galeria" data-transition="slide" data-icon="home">INICIO</a>
+    </li>
+    <li>
+    <a href="#ayuda" data-transition="slide"> AYUDA </a>
+    </li>
+    <li>
+    <a href="principal" data-transition="slide" data-icon="alert"> CONTACTO </a>
+    </li>
+    </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+		  <div data-role="navbar" data-iconpos="top">
+  
+  </body>
 </html>
